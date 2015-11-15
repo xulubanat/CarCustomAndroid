@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".Main" android:background="@android:color/background_dark">
+
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/scrollView"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CUSTOMIZE"
+            android:id="@+id/custom"
+            android:singleLine="false"
+            android:visibility="visible"
+            android:layout_marginTop="90dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT"
+            android:id="@+id/about"
+            android:layout_below="@+id/custom"
+            android:singleLine="false"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="HELP"
+            android:id="@+id/help"
+            android:layout_below="@+id/about"
+            android:singleLine="false"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="61dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EXIT"
+            android:id="@+id/exit"
+            android:layout_below="@+id/help"
+            android:singleLine="false"
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"/>
+
+</RelativeLayout>

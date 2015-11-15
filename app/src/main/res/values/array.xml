@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Brand">
+        <item>Please select brand</item>
+        <item>Land Rover</item>
+        <item>Audi</item>
+        <item>Lamborghini</item>
+    </string-array>
+    <string-array name="Model">
+        <item>Please select model</item>
+        <item>Range Rover Evoque</item>
+        <item>A7</item>
+        <item>Huracan</item>
+    </string-array>
+    <string-array name="Year">
+        <item>Please select year</item>
+        <item>2014</item>
+    </string-array>
+</resources>
